@@ -1,4 +1,4 @@
-## Readme
+# Readme
 
 This program showcases a simple MUD like rpg game. The dungeon is generated randomly through a graph algorithm, and checked recursively. We also use a stack to keep track of users choices dependent on the number of paths available in a given corridor. 
 
@@ -29,37 +29,69 @@ Lessons learned: Learned a lot more about memory management, and feel like I got
 Below are sample inputs. My outputs are recorded in the folder as screenshots 1-3
 
 Harry the Wizard
+
 3
+
 y
+
 2
+
 5
+
 3
+
 n
+
 3
+
 n
+
 5
+
 4
+
 3
+
 n
+
 3
+
 n
+
 5
+
 1
+
 3
+
 n
+
 3
+
 n
+
 5
+
 1
+
 3
+
 n
+
 3
+
 n
+
 5
+
 2
+
 y
+
 y
+
 2
+
 y
 
 
