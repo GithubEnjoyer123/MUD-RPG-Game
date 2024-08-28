@@ -1,4 +1,4 @@
-##Readme
+## Readme
 
 This program showcases a simple MUD like rpg game. The dungeon is generated randomly through a graph algorithm, and checked recursively. We also use a stack to keep track of users choices dependent on the number of paths available in a given corridor. 
 
@@ -14,7 +14,7 @@ To run this programL
 2. Execute the game
 ```.\a.exe```
 
-#Algorithm Analysis
+# Algorithm Analysis
 
 The main part of the program uses a binary tree with a simple graph algorithm to traverse it. Things are generated randomly. Traversing the tree will give us a time complexity of O(logn), with a worst case of O(n). For this particular program however, we are constantly deleting nodes to make it more efficient for our game. This makes it closer to O(n) time as we reach the end and delete more nodes, however our O(n) at the end will be more efficient than our O(logn) when we first generated our tree.
 
@@ -24,7 +24,7 @@ While not part of the game, I left a function in that showcased the entire tree 
 
 Lessons learned: Learned a lot more about memory management, and feel like I got super comfortably with at least basic binary tree traversal. In the future I believe using more recursion can make the code more efficient and not have to traverse the tree as often.
 
-#Example:
+# Example:
 
 Below are sample inputs. My outputs are recorded in the folder as screenshots 1-3
 
