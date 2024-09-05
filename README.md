@@ -12,7 +12,7 @@ To run this programL
 1. Compile the main, dungeon, and character files
 ```g++ .\main.cpp .\dungeon.cpp .\character.cpp -o Game```
 2. Execute the game
-```.\a.exe```
+```.\Game.exe```
 
 # Algorithm Analysis
 
